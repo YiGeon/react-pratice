@@ -17,7 +17,7 @@ export const toggleTodo = id => ({
     id
 })
 
-const initState = [{}];
+const initState = [];
 
 export default function todos(state = initState, action) {
     switch (action.type) {
