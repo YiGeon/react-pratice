@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {addTodo, toggleTodo} from "../modules/todos";
 import Todos from "../components/Todos";
 
-const TodoContainer = () => {
+const TodosContainer = () => {
     const todos = useSelector(state => state.todos);
     const dispatch = useDispatch();
 
@@ -15,4 +15,4 @@ const TodoContainer = () => {
     );
 };
 
-export default TodoContainer;
+export default TodosContainer;
